@@ -1,0 +1,27 @@
+<!-- activity_level_selection.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/levelOneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level 1" />
+
+    <Button
+        android:id="@+id/levelTwoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level 2" />
+    <Button
+        android:id="@+id/levelThreeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level 3" />
+    <!-- Add buttons for other levels as needed -->
+
+</LinearLayout>
